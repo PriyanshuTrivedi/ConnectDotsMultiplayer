@@ -1,0 +1,53 @@
+.inp1{
+    width: 120px;
+    height: 30px;
+    margin-left: 35px;
+}
+.pl1,.pl2,.difficulty{
+    display: flex;
+    margin-top: 13px;
+}
+.sbmt{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+.frm{
+    width: 25vw;
+    height: 25vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 4px;
+    backdrop-filter: blur(23px);
+    font-weight: bold;
+}
+.pge{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url('../../images/img4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.strtBtn{
+    padding: 4px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 60px;
+}
+.strtBtn:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.inpt{
+    width: 195px;
+}

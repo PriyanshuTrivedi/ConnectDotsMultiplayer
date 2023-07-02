@@ -1,0 +1,25 @@
+.vertical_line{
+    height: 40px;
+    width: 6px;
+    background-color: rgb(94, 98, 103);
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.dot{
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    background-color: rgb(128, 88, 88);
+    margin-top: 2px;
+    margin-left: 2px;
+}
+.final_row{
+    display: flex;
+}
+.dot_vertLine{
+    display: flex;
+    flex-direction: column;
+}
+.dot_horiLine,.make_flex{
+    display: flex;
+}

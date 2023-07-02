@@ -1,0 +1,55 @@
+.connectDotsGame{
+    height: 90vh;
+    width: 100vw;
+    background-image: url('./images/img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainGame{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    height: 100%;
+}
+.mainGrid{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 700px;
+}
+.gameInfo{
+    height: 500px;
+    width: 300px;
+    padding: 10px;
+}
+.btns{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.stylebtns{
+    margin-left: 20px;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+}
+.stylebtns:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.res{
+    position: absolute;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,11 @@
+.hdr{
+    height: 10vh;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 36px;
+}
